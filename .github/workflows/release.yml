@@ -90,7 +90,7 @@ jobs:
           prerelease: ${{ github.event.inputs.prerelease }}
           allowUpdates: true
           artifacts: >
-            farm-win-x64/qq-farm-bot-win-x64.exe,
-            farm-linux-x64/qq-farm-bot-linux-x64,
-            farm-mac-x64/qq-farm-bot-macos-x64,
-            farm-mac-arm64/qq-farm-bot-macos-arm64
+            artifacts/farm-win-x64/qq-farm-bot-win-x64.exe,
+            artifacts/farm-linux-x64/qq-farm-bot-linux-x64,
+            artifacts/farm-mac-x64/qq-farm-bot-macos-x64,
+            artifacts/ farm-mac-arm64/qq-farm-bot-macos-arm64
